@@ -1,0 +1,89 @@
+
+/*For the styles, add the following CSS to your styles.css file:/* Styles for about.html */
+
+.about-page {
+    background-color: #001f3f; /* Dark Navy */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif; /* Arial font */
+    justify-content: center;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent black */
+    border: 2px solid #cccccc; /* Grey border */
+    padding-top: 10vh;
+}
+
+.about-content {
+    margin-bottom: 30px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.top-menu {
+    background: transparent;
+    /* Dark Navy */
+    position: fixed;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: vh;
+    left: 0px;
+    top: 0;
+    z-index: 1px;
+    border-bottom: 2px solid grey;
+    box-shadow: 0 1px 6px gold;
+    backdrop-filter: blur (8px);
+}
+.top-menu a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #0074D9;
+    border-radius: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    padding-bottom: 6px;
+    padding-top: 7px;
+    font-size: 13px;
+    box-shadow: 0 1px 6px grey;
+    overflow: hidden;
+}
+
+.top-menu a:hover {
+    background-color: green;
+    /* Darker blue on hover */
+    color: black;
+    box-shadow: 0 1px 6px grey
+    .logo-container {
+    position: absolute;
+    top: 40px;
+    /* Adjust as needed */
+    left: 0px;
+    /* Adjust as needed */
+    z-index: 1px;
+    /* Make sure logo is above other elements */
+}
